@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+
+                <div class="nav-link-wrapper active-nav-link">
+                  <a href="index.html">Home</a>
+               </div>
+               <div class="nav-link-wrapper">
+                 <a href="about.html">About</a>
+               </div>
+            </div>
+
+              <div class="right-side">
+                <div class="brand">
+                  <div>ANDREAS KÅBERG</div>
+               </div>
+              </div>
+        </div>
+
+        <div class="content-wrapper">
+             <div class="portfolio-items-wrapper">
+                  <div class="portfolio-item-wrapper">
+                     <div class="portfolio-img-background" style="background-image:url(images/trees.jpg)"></div>
+
+                     <div class="img-text-wrapper">
+                        <div class="subtitle">“Use what talents you possess, the woods would be very silent if no birds sang there except those that sang best“ <br> <br>- Henry Van Dyke</div>
+                     </div>
+
+                 </div>
+          
+
+    <div class="portfolio-item-wrapper">
+      <div class="portfolio-img-background" style="background-image:url(images/sunset2.jpg)"></div>
+
+      <div class="img-text-wrapper">
+         <div class="subtitle">“Colors are the smiles of nature“ <br><br>- Leigh Hunt</div>
+      </div>
+
+  </div>
+
+  <div class="portfolio-item-wrapper">
+    <div class="portfolio-img-background" style="background-image:url(images/sunset.jpg)"></div>
+
+    <div class="img-text-wrapper">
+       <div class="subtitle">“Every sunset brings the promise of a new dawn” <br><br>- Ralph Waldo Emerson</div>
+    </div>
+
+</div>
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/dog.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”All his life he tried to be a good person. Many times, however, he failed. For after all, he was only human. He wasn't a dog” <br><br> - Charles M. Schulz</div>
+  </div>
+
+</div>
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/frenchie.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”Freedom from the desire for an answer is essential to the understanding of a problem” <br><br>- Jiddu Krishnamurti</div>
+  </div>
+
+</div>
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/monkey.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”The mind can be a crazy monkey that is always trying to escape from the moment” <br><br>- Rolf Potts</div>
+  </div>
+
+</div>
+
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/coding.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”Truth can only be found in one place, the code” <br><br>- Robert C. Martin</div>
+  </div>
+
+</div>
+
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/mac.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”Never trust a computer you can't throw out a window” <br><br>- Steve Wozniak
+     </div>
+  </div>
+
+</div>
+
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/books.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”The reading of all good books is like conversation with the finest people of the past centuries” <br><br>- Descartes</div>
+  </div>
+
+</div>
+
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/coffee.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”Even bad coffee is better than no coffee at all” <br><br>- David Lynch</div>
+  </div>
+
+</div>
+
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/bike.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”He who climbs upon the highest mountains laughs at all tragedies, real or imaginary” <br><br>- Friedrich Neitszche</div>
+  </div>
+
+</div>
+
+
+<div class="portfolio-item-wrapper">
+  <div class="portfolio-img-background" style="background-image:url(images/sport.jpg)"></div>
+
+  <div class="img-text-wrapper">
+     <div class="subtitle">”Make sure your worst enemy doesn’t live between your own two ears” <br><br>- Laird Hamilton</div>
+  </div>
+
+</div>
+
+
+</div>
+</div>
+
+   
+
+    
+</body>
+
+<script>
+const portfolioItem = document.querySelectorAll('.portfolio-item-wrapper')
+
+portfolioItem.forEach(portfolioItem => {
+  portfolioItem.addEventListener('mouseover', () => {
+    portfolioItem.childNodes[1].classList.add('img-darken');
+  })
+ 
+  portfolioItem.addEventListener('mouseout', () => {
+    portfolioItem.childNodes[1].classList.remove('img-darken');
+  })
+
+})
+
+</script>
+</html>
